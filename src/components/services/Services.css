@@ -1,0 +1,14 @@
+@media (min-width: 600px){
+#services{ 
+  min-height: 100vh;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+}
+#services .card img{
+  height: 280px;
+}
+#services h1{
+  color: #0275d8;
+}

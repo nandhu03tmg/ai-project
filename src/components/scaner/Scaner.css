@@ -1,0 +1,10 @@
+#scaner{ 
+  min-height: 100vh;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#camara{
+  width:50%;
+  height: 50%;
+}

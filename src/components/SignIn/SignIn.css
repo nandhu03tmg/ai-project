@@ -1,0 +1,54 @@
+#mainimga{
+  width: 25rem;
+
+}
+#signPage h6{
+  font-size: 50px;
+}
+
+#signPage #second{
+  width: 20rem;
+  height: 18rem;
+}
+#signPage{ 
+  min-height: 100vh;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#signPage #firstcol{
+  justify-content: flex-start;
+}
+@media (min-width: 600px){
+  #mainimga{
+  width: 45rem;
+  margin-top: 5vh;
+}
+#signPage hr{
+  margin-bottom: 5vh;
+}
+}
+
+@media (max-width: 600px){
+#signPage #boldq{
+    font-size: 25px;
+  }
+  #signPage .shadow{
+  padding-left:21vh ;
+  padding-right:21vh ;
+}
+#signPage .icon{  
+  font-size: 2vh;
+  color:#fff ;
+}
+}
+@media (min-width: 600px){
+   #signPage .shadow{
+  padding-left:43vh ;
+  padding-right:43vh ;
+}
+#signPage .icon{  
+  font-size: 4vh;
+  color:#fff ;
+}
+}

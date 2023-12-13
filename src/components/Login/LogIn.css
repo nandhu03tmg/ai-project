@@ -1,0 +1,43 @@
+#mainimga{
+  width: 25rem;
+
+}
+h6{
+  font-size: 50px;
+}
+
+span{
+  color:#0275d8;
+  font-weight:bold ;
+}
+#second{
+  width: 20rem;
+  height: 18rem;
+}
+#LogPage{ 
+  min-height: 100vh;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#firstcol{
+  justify-content: flex-start;
+}
+@media (min-width: 600px){
+  #mainimga{
+  width: 45rem;
+  margin-top: 5vh;
+}
+ 
+}
+hr{
+  margin-bottom: 5vh;
+}
+@media (max-width: 600px){
+#LogPage #boldq{
+    font-size: 16px;
+  }
+}
+#LogPage u{
+  cursor: pointer;
+}

@@ -1,0 +1,24 @@
+#contact{ 
+  min-height: 100vh;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#contact i{  
+    font-size: 30px;
+  color: #3e2093;
+  margin-bottom: 10px;
+}
+#contact .title{
+  font-weight:600 ;
+}
+#contact .icon{  
+  font-size: 2rem;
+  color:#0275d8 ;
+}
+#contact .details{
+  color: Gray;
+}
+#contact h1{
+  color: #0275d8;
+}

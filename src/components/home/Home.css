@@ -1,0 +1,17 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+#home{ 
+  min-height: 100vh;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#home span{
+  color:#0275d8;
+  font-weight:bold ;
+}
+#home p{
+  font-size: 18px;
+}
